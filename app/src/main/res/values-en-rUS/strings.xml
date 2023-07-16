@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Angies App</string>
+    <string name="title_home">My day</string>
+    <string name="title_appointment">Appointments</string>
+    <string name="title_operations">Operations</string>
+</resources>

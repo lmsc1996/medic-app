@@ -1,0 +1,18 @@
+apply from: new File(rootProject.projectDir, "${appProjectRoot}/gradle/support/versions.gradle")
+
+def deps = [:]
+
+
+
+def m(Map target, String depName, String depValue) {
+    def tokens = depName.split("\\.")
+
+    if (tokens.length == 1) {
+        target[tokens[0]] = depValue
+    } else {
+        if (target[tokens[0]] == null) {
+            target[tokens[0]] = [:]
+        }
+        m(target[tokens[0]], depName.substring(depName.indexOf('.') + 1), depValue)
+    }
+}

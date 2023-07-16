@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--APP COLORS-->
+    <color name="pink_200">#FDDBED</color>
+    <color name="pink_500">#EA97BD</color>
+    <color name="pink_700">#FA70AF</color>
+    <color name="brown_200">#A95959</color>
+    <color name="brown_800">#853E46</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

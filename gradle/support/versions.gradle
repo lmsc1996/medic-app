@@ -1,0 +1,24 @@
+// Global versions of project dependencies
+ext {
+    // Build
+    minSdk                          = 23
+    compileSdk                      = 32
+    targetSdk                       = 32
+    versionCode                     = 1
+    versionName                     = "1.0"
+
+    // Android
+    androidAppCompatV7              = "28.0.0"
+    androidConstraintLayout         = "2.0.4"
+
+    // Arch
+    archLiveData                    = "1.1.1"
+    archViewModel                   = "1.1.1"
+    archNavigationFragmentKtx       = "1.0.0"
+    archNavigationUiKtx             = "1.0.0"
+
+    // Material Design
+    materialDesign                  = "1.6.0"
+    androidDesign                   = "28.0.0"
+
+}
